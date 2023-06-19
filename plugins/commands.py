@@ -114,6 +114,8 @@ async def start(client, message):
                     
                 ],[
                     InlineKeyboardButton('▫️ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ▫️', url=CHNL_LNK)
+                ],[
+                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇy ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='oggy')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(

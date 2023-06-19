@@ -1150,6 +1150,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
                 ],[
                     InlineKeyboardButton('™️ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ™️', url=CHNL_LNK)
+                ],[
+                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇy ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='oggy')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1231,7 +1233,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🙈', callback_data='source')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ 🏡', callback_data='start'),
-            InlineKeyboardButton('Sᴛᴀᴛᴜs 📶', callback_data='oggy')
+            InlineKeyboardButton('Sᴛᴀᴛᴜs 📶', callback_data='stats')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
